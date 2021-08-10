@@ -5,3 +5,13 @@ git add -A         ### if you want to add all the files to which changes were ma
 git commit -a      ### This will commit all the changes in the directory you’re working in
 git push <remote> <branch-name>  ### To make all your committed changes available to remote repo, you’ll have to push them to the remote origin.
 git pull <remote>  ## pull the detail from remote repo to locally
+
+
+
+
+----------------------------------------- create branch , merge and delete branch in Git -----------------------------------------
+git branch <branch-name> ## create new barnch in git
+git checkout <branch-name> ## switch to pArticluar barnch ,, for e,g . main branch to sub branch or vice-versa
+git merge <branch-name>. ## so first you need to checkout/switch to barnch which one you need to merge with  new branch ,,,for e.g. git checkout main-> git merge <new-branch>
+git branch -d <branch-name> ## remove branch locally
+git push origin --delete <branch-name> ## remove branch remotely
