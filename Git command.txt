@@ -1,0 +1,7 @@
+git init           ##This will transform the current directory into a Git repository
+git clone <https://url-of-the-repository>           ###The git clone command is used to download the source code from a remote repository (like GitHub, Bitbucket, or GitLab).
+git add <file-name>      ##Every time you create a new file, delete it, or make a change, you’ll have to tell Git to track it and add it to the staging area. Otherwise, the files you made changes to wouldn’t be added when you try to push your changes.
+git add -A         ### if you want to add all the files to which changes were made, you can use
+git commit -a      ### This will commit all the changes in the directory you’re working in
+git push <remote> <branch-name>  ### To make all your committed changes available to remote repo, you’ll have to push them to the remote origin.
+git pull <remote>  ## pull the detail from remote repo to locally
