@@ -5,7 +5,7 @@ git add -A         ### if you want to add all the files to which changes were ma
 git commit -a      ### This will commit all the changes in the directory you’re working in
 git push <remote> <branch-name>  ### To make all your committed changes available to remote repo, you’ll have to push them to the remote origin.
 git pull <remote>  ## pull the detail from remote repo to locally
-
+git config --list ## to get info about configuration including user email, username etc..
 
 
 
