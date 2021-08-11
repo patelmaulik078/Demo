@@ -15,7 +15,7 @@ git checkout <branch-name> ## switch to pArticluar barnch ,, for e,g . main bran
 git merge <branch-name>. ## so first you need to checkout/switch to barnch which one you need to merge with  new branch ,,,for e.g. git checkout main-> git merge <new-branch>
 git branch -d <branch-name> ## remove branch locally
 git push origin --delete <branch-name> ## remove branch remotely
-
+git branch -r ## to get info about all branch in git
 
 
 
