@@ -19,7 +19,7 @@ git branch -r ## to get info about all branch in git
 
 
 
-
+rm -rf <repo_folder>/.git  ### this can used to remove clone repo from your local terminal/repo
 
 
 
